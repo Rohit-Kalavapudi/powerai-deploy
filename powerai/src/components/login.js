@@ -8,7 +8,7 @@ const Login = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('hello11');
-    const response = await fetch('https://pai-backend.onrender.com/api/auth/login', {
+    const response = await fetch('https://app-deploy-backend-07jl.onrender.com/api/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
