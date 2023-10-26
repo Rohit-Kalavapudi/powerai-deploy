@@ -21,7 +21,7 @@ const port = process.env.PORT||4000
 app.use(express.json())
 // app.use(cors)
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://vercel.com/rohits-projects/app-deploy-powerai'
   }));
 
  app.use('/api/auth', require('./routes/auth'))
